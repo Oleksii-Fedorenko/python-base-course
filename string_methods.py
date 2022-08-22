@@ -37,7 +37,7 @@
 # print(name.replace('o', 'yo'))
 # print(name * 2)
 
-#------------------------------------------------------
+# ------------------------------------------------------
 
 # STRING SLICING
 
@@ -60,7 +60,7 @@
 # print(website1[slice])
 # print(website2[slice])
 
-#------------------------------------------------------
+# ------------------------------------------------------
 
 # index operator []
 
@@ -74,3 +74,42 @@
 # print(first_name)
 # print(last_name)
 # print(last_character)
+
+# -----------------------------------------------------
+
+# format method
+
+# animal = "cow"
+# item = "moon"
+
+# print("The " +animal+" jumped over the "+item)
+# print("The {} jumped over the {}".format("cow", "moon"))
+# print("The {} jumped over the {}".format(animal, item))
+# print("The {0} jumped over the {0}".format(animal, item)) # position argument
+# print("The {animal} jumped over the {item}".format(animal = "cow", item = "moon")) # keyword argument
+
+# text = "The {} jumped over the {}"
+# print(text.format(animal, item))
+
+
+# name = "Oleksii"
+
+# print("Hello, my name is {}".format(name))
+# print("Hello, my name is {:<10}. Nice to meet you".format(name))
+# print("Hello, my name is {:>10}. Nice to meet you".format(name))
+# print("Hello, my name is {:^10}. Nice to meet you".format(name))
+
+
+
+# number = 3.14159
+# number1 = 1000
+# number2 = 14
+# number3 = 10000
+
+# print("the number pi is {:.2f}".format(number)) # left only 2 signs after point
+# print("the number1 is {:,}".format(number1)) # make float
+# print("the number2 is {:b}".format(number2)) # transform to binary(2)
+# print("the number2 is {:o}".format(number2)) # transform to octal(8)
+# print("the number3 is {:X}".format(number3)) # transform to hexedacimal(16)
+# print("the number3 is {:e}".format(number3)) # transform to scientific notation
+
