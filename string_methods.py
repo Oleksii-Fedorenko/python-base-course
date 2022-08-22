@@ -36,3 +36,24 @@
 # print(name.count('o'))
 # print(name.replace('o', 'yo'))
 # print(name * 2)
+
+# STRING SLICING
+
+# name = "Oleksii Fedorenko"
+
+# first_name = name[:7]
+# last_name = name[8:]
+# funky_name = name[::2]
+# reversed_name = name[::-1]
+
+# print(first_name)
+# print(last_name)
+# print(funky_name)
+# print(reversed_name)
+
+website1 = "http://google.com"
+website2 = "http://widipedia.com"
+slice = slice(7, -4)
+
+print(website1[slice])
+print(website2[slice])
