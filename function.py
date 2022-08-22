@@ -39,3 +39,29 @@
 # print(num)
 
 # print(round(abs(float(input("Enter a whole positive number: ")))))
+
+# -------------------------------
+
+# *args = parameter that willl pack all arguments into a tuple
+
+# def add(*args):
+#     sum = 0
+#     for i in args:
+#         sum += i
+#     return sum
+
+# print(add(1, 2, 3))
+
+# -------------------------------------------------
+
+# **kwargs = parameter that will pack all arguments into a dictioinary
+
+# def hello(**kwargs):
+    # print("Hello", kwargs['first'], kwargs['last'])
+
+#     print("Hello", end=" ")
+
+#     for key, value in kwargs.items():
+#         print(value, end=" ")
+
+# hello(title = "Mr.", first = "Oleksii", middle="Dude", last = "Fedorenko")
