@@ -37,6 +37,8 @@
 # print(name.replace('o', 'yo'))
 # print(name * 2)
 
+#------------------------------------------------------
+
 # STRING SLICING
 
 # name = "Oleksii Fedorenko"
@@ -51,9 +53,24 @@
 # print(funky_name)
 # print(reversed_name)
 
-website1 = "http://google.com"
-website2 = "http://widipedia.com"
-slice = slice(7, -4)
+# website1 = "http://google.com"
+# website2 = "http://widipedia.com"
+# slice = slice(7, -4)
 
-print(website1[slice])
-print(website2[slice])
+# print(website1[slice])
+# print(website2[slice])
+
+#------------------------------------------------------
+
+# index operator []
+
+# name = "oleksii Fedorenko"
+# if(name[0].islower()):
+# name = name.title()
+# first_name = name[:7].upper()
+# last_name = name[8:].lower()
+# last_character = name[-1]
+
+# print(first_name)
+# print(last_name)
+# print(last_character)
