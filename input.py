@@ -1,4 +1,4 @@
-import math
+# import math
 
 # name = input("What is your name?: ")
 # age = int(input("How old are you?: "))
@@ -8,10 +8,10 @@ import math
 # print("Your are " + str(age) + " years old")
 # print("Your height is: " + str(height) + "cm")
 
-pi = -3.14
-x = 1
-y = 2
-z = 3
+# pi = -3.14
+# x = 1
+# y = 2
+# z = 3
 
 # print(round(pi))
 # print(math.ceil(pi))
