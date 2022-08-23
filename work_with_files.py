@@ -43,16 +43,38 @@
 # -------------------------------------------------------------------
 # how to move file
 
+# import os
+
+# source = "test.txt"
+# destination = "C:\\Users\\Oleksii\\Desktop\\text\\test.txt"
+
+# try:
+#     if os.path.exists(destination):
+#         print("There is already a file there")
+#     else:
+#         os.replace(source, destination)
+#         print(source, "was moved")
+# except FileNotFoundError:
+#         print(source, "was not found")
+
+# -------------------------------------------------------------------
+
+# delete file
+
 import os
+import shutil
 
-source = "test.txt"
-destination = "C:\\Users\\Oleksii\\Desktop\\text\\test.txt"
-
+path = "folder"
 try:
-    if os.path.exists(destination):
-        print("There is already a file there")
-    else:
-        os.replace(source, destination)
-        print(source, "was moved")
+    # os.remove(path)       #delete a file 
+    # os.rmdir(path)        #delete an empty directory
+    shutil.rmtree(path)   #delete a directory containing files
+
 except FileNotFoundError:
-        print(source, "was not found")
+    print("that file was not found")
+except PermissionError:
+    print("You do not have permission to delete that")
+except OSError:
+    print("You cannot delete that using that function")
+else:
+    print(path, "was deleted")
