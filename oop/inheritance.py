@@ -1,0 +1,68 @@
+# multi-level inheritance = when a derived (child) class inherits another child class
+
+# class Organism:eat()
+# dog.bark()
+
+# -------------------------------------------------------------------
+
+# multiple inheritance
+
+# class Prey:
+
+#     def flee(self):
+#         print("This animal flees")
+
+# class Predator:
+
+#     def hunt(self):
+#         print("This animal is hunting")
+
+# class Rabbit(Prey):
+#     pass
+
+# class Hawk(Predator):
+#     pass
+
+# class Fish(Prey, Predator):
+#     pass
+
+
+# rabbit = Rabbit()
+# fish = Fish()
+# hawk = Hawk()
+
+#     alive = True
+
+# class Animal(Organism):
+
+#     def eat(self):
+#         print("This animal is eating")
+
+# class Dog(Animal):
+
+#     def bark(self):
+#         print("This dog is barking")
+
+# dog = Dog()
+# print(dog.alive)
+# dog.
+
+# rabbit.flee()
+# hawk.hunt()
+# fish.hunt()
+# fish.flee()
+
+# --------------------------------------------------------------
+
+class Animal:
+
+    def eat(self):
+        print("This animal is eating")
+
+class Rabbit(Animal):
+
+    def eat(self):
+        print("This rabbit is eating a carrot")
+
+rabbit = Rabbit()
+rabbit.eat()
